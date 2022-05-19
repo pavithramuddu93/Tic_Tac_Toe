@@ -18,11 +18,11 @@ public class TicTacToe {
         } else {
             inputC = 'X';
         }
-        TicTacToeGame.showBoard();
-        TicTacToeGame.uSelection();
-        TicTacToeGame.showBoard();
-        TicTacToeGame.cSelection();
-        TicTacToeGame.showBoard();
+        TicTacToe.showBoard();
+        TicTacToe.uSelection();
+        TicTacToe.showBoard();
+        TicTacToe.cSelection();
+        TicTacToe.showBoard();
     }
 
     public static char input() {
